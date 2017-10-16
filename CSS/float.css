@@ -1,0 +1,36 @@
+#glavnaStrana{
+    width: 960px;
+    margin: 0px auto;
+}
+
+img{
+    width: 960px;
+}
+.div1{
+   width: 300px;
+   margin-left: 10px; 
+}
+
+.div1 > img {
+    width: 100%;
+}
+
+
+.floatRight{
+    float: right;
+}
+.floatLeft{
+    float: left;
+}
+
+.list{
+    width: 300px;
+    
+}
+.clearLeft{
+    clear: left;
+}
+#hotfix{
+    
+    width:100px;
+}
