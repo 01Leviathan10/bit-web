@@ -1,0 +1,18 @@
+nav{
+    
+        ul{
+            margin: 0 auto;
+            background-color: rgb(105, 121, 121);
+    
+            li{
+                text-align: center;
+                padding: 10px 0;
+                color:$bela-brale;
+                &:hover{
+                    background-color: rgb(44, 83, 83);
+                }
+            }
+        }
+    
+        
+    }
