@@ -1,0 +1,25 @@
+@import "variables";
+
+.forma{
+    margin: 50px 0px 50px 0px;
+    h1{
+        text-align: center;
+    }
+    #star{
+        width:40%;
+        margin: 0px auto;
+    }
+    form{
+        input{
+            display: block;
+            width:100%;
+        }
+        button{
+            border: solid;
+            background-color: $green-day;
+            border-radius: 5px;
+            color:$white-text;
+            padding: 5px 10px ;
+        }
+    }
+}

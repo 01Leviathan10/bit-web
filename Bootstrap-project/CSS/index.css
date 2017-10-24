@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  width: 100%;
+  font-family: Lato; }
+
+.nav-box {
+  background-color: #2c3e50; }
+  .nav-box .navbar {
+    color: white; }
+    .nav-box .navbar a {
+      color: white; }
+    .nav-box .navbar button {
+      color: white;
+      background-color: #18bc9c; }
+
+.nav-link {
+  color: white !important; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(http://houstoncreativesmiles.com/wp-content/themes/ss3/assets/css/hamburger.png); }
+
+header {
+  color: white;
+  background-color: #18bc9c;
+  text-align: center;
+  padding: 50px 0; }
+  header #star {
+    width: 40%;
+    margin: 0 auto; }
+
+section {
+  padding-bottom: 50px;
+  text-align: center;
+  padding: 50px 0; }
+  section .row .margine {
+    margin-bottom: 10px; }
+
+.about-section {
+  background-color: #18bc9c; }
+  .about-section #star {
+    width: 40%;
+    margin: 0px auto; }
+  .about-section h1 {
+    text-align: center;
+    width: 100%;
+    color: white; }
+  .about-section button {
+    color: white;
+    background-color: #18bc9c;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 10px auto 50px auto; }
+
+.forma {
+  margin: 50px 0px 50px 0px; }
+  .forma h1 {
+    text-align: center; }
+  .forma #star {
+    width: 40%;
+    margin: 0px auto; }
+  .forma form input {
+    display: block;
+    width: 100%; }
+  .forma form button {
+    border: solid;
+    background-color: #18bc9c;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px; }
+
+/*# sourceMappingURL=index.css.map */
