@@ -1,0 +1,21 @@
+.about-section {
+    background-color: $green-day;
+
+    #star {
+        width: 40%;
+        margin: 0px auto;
+    }
+    h1 {
+        text-align: center;
+        width: 100%;
+        color: $white-text;
+    }
+
+    button{
+        color:$white-text;
+        background-color: $green-day;
+        border-radius: 5px;
+        border-style: solid;
+        margin: 10px auto 50px auto;
+    }
+}

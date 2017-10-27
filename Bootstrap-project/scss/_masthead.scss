@@ -1,0 +1,13 @@
+@import "variables";
+header{
+    color: $white-text;
+    background-color: $green-day;
+    text-align: center;
+    padding: 50px 0;
+
+    #star {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
