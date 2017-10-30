@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#bacground{
+   width: 100%;
+   position: relative;
+}
+#player {
+    position: absolute;
+    width: 20%;
+    top: 0px;
+    left: 0px;
+    
+}
+button {
+    background-color: orange;
+    border-radius: 20%;
+    float: right;
+
+}
