@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="vendor/css/nice-select.css">
+    <link rel="stylesheet" href="vendor2/pickadate.js//lib/compressed/themes/classic.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <select>
+        <option data-display="Select">Nothing</option>
+        <option value="1">Some option</option>
+        <option value="2">Another option</option>
+        <option value="3" disabled>A disabled option</option>
+        <option value="4">Potato</option>
+    </select>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="vendor/js/jquery.nice-select.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('select').niceSelect();
+        });
+    </script>
+    <script src="vendor2/pickadate.js/lib/compressed/picker.date.js"></script>
+    <script>
+        $('.datepicker').pickadate();
+    </script>
+</body>
+
+</html>
