@@ -53,7 +53,7 @@ function loadPopularShows() {
             var sHow = currentShow.name;
             var picture = currentShow.image.medium;
 
-            var html = `<div class="col-sm-12 col-md-6 col-lg-4"><img src="${picture}"><p><a href="#">${sHow}</a></p></div>`;
+            var html = `<div class="col-sm-12 col-md-6 col-lg-4"><img src="${picture}"><p><a href="#" data-show-id="${currentShow.id}">${sHow}</a></p></div>`;
             $row.append(html);
         }
     })
